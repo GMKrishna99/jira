@@ -1,5 +1,12 @@
+"use client";
+import { SignUpCard } from "@/features/auth/components/sign-up-card";
+import { useEffect } from "react";
+
 const SignUpPage = () => {
-  return <div>sign up page</div>;
+  useEffect(() => {
+    document.title = "Jira | Sign-Up";
+  }, []);
+  return <SignUpCard />;
 };
 
 export default SignUpPage;
