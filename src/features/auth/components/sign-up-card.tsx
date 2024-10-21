@@ -139,12 +139,6 @@ export const SignUpCard = () => {
             <FaGithub className="mr-2 size-5" />
             Continue With Github
           </Button>
-          <CardDescription>
-            Already have an account{" "}
-            <Link href="/sign-in">
-              <span className="text-blue-700 font-semibold">Sign In</span>
-            </Link>
-          </CardDescription>
         </CardContent>
       </div>
     </Card>
